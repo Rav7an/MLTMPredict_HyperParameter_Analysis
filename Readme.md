@@ -42,13 +42,13 @@ In this method, sequences are padded with zeros to match the length of the longe
 **Cons:** Results in high-dimensional, sparse feature vectors.
 
 ## Running the Experiment
-The experiment logic is contained within `built.ipynb`.
+The experiment logic is contained within `experiment.ipynb`.
 
 ### Environment Setup
-To run the experiment effortlessly, it is recommended to use Conda to set up an environment with **Python <= 3.8**.
+To run the experiment effortlessly, it is recommended to use Conda to set up an environment with **Python <= 3.8** and the packages in `requirements.txt`.
 
 Run the setup scripts to install dependencies:
 1. `python environment_setup1.py`
 2. `python environment_setup2.py`
 
-Once the environment is ready, you can execute `built.ipynb` to train the models and visualize the results.
+Once the environment is ready, you can execute `experiment.ipynb` to train the models and visualize the results.
